@@ -18,18 +18,17 @@
 
 ## ④質問・疑問・感想、シェアしたいこと等なんでも
 - PowerShell上でのエラーが多すぎたので、以下に色々記載しておく。
-・node.jsのバージョン管理は、nodistを使わずにfnmを使う。
-・管理者権限でPowerShellを開き、コマンドを実行すると何とかなることもあった。
-・こいつでfirebase-toolsをインストール「npm install -g firebase-tools」
-・MaterialUIはreact17.0.0までしか対応していない。
-・バージョンの互換性は非常に重要。ここで大幅な時間ロスがあった。
-・MaterialUIのコードはどこからどこまでが必要なのかよくわからない。
-・ファイル「.env.local」にkeyを記載。冒頭に「.」を付けると隠しファイルになる。
-・firebaseはver8で触っていた（npm i firebase@8.*）。
-・reactはとにかく、コンポーネントを作ってインポートしまくる。
-・一回デプロイした後のコードの修正はbiuldを挟む必要あり。
-　npm run build→firebase deploy
-・
+- node.jsのバージョン管理は、nodistを使わずにfnmを使う。
+- 管理者権限でPowerShellを開き、コマンドを実行すると何とかなることもあった。
+- こいつでfirebase-toolsをインストール「npm install -g firebase-tools」
+- MaterialUIはreact17.0.0までしか対応していない。
+- バージョンの互換性は非常に重要。ここで大幅な時間ロスがあった。
+- MaterialUIのコードはどこからどこまでが必要なのかよくわからない。
+- ファイル「.env.local」にkeyを記載。冒頭に「.」を付けると隠しファイルになる。
+- firebaseはver8で触っていた（npm i firebase@8.*）。
+- reactはとにかく、コンポーネントを作ってインポートしまくる。
+- 一回デプロイした後のコードの修正はbiuldを挟む必要あり。
+- npm run build→firebase deploy
 
 - 今回参考にしたudemyの講座（4時間の動画を2倍速で見て、内容を写経したがトータル10時間以上かかった気がする…）
 https://www.udemy.com/share/106rsg3@kcIfk_K47L9F4WKIavdo06khWy3P4ZhbfX2SXqXH8Zeb_lIA43cOjt7IJAPKsrD1Ww==/
